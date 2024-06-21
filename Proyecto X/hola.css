@@ -1,0 +1,40 @@
+.Presentandome {
+    font-size: 15px;
+    font-family: Tahoma, Arial;
+}
+
+.lista{
+    color: red
+}
+
+.pagina{
+    color: brown;
+    font-size: 25px;
+}
+
+.imagen-contenedor{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    gap: 10px; /* Espacio entre las imágenes */
+    margin: 20px;
+}
+
+.imagen{
+    max-width: calc(30% - 5px); /* Ajusta el ancho de las dos primeras imágenes */
+    height: auto;
+    border: 2px solid #ddd; /* Opcional: borde alrededor de las imágenes */
+    padding: 5px; /* Opcional: espacio interno dentro del borde */
+}
+
+.imagen-debajo{
+    max-width: calc(30% - 5px); /* Ajusta el ancho de las dos primeras imágenes */
+    flex-basis: 100%; /* Hace que la tercera imagen ocupe toda la fila */
+}
+
+.imagen-hola{
+    max-width: 350px;
+}
+
+.link{
+    font-size: 25px;
+}
